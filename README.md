@@ -14,19 +14,21 @@ Any Vivado HLS release from 2014.1 to 2016.1
 	
 	|   README.md
 	\---code
-			dct.h
-			dct_coeff_table.h
-			fdctref.cpp
-			my_dct.cpp
-			wang_fdct.cpp
+			cordic_atan_11bits.h
+		        cordic_defines.h
+		    	cordic_isqrt.cpp
+		    	cordic_sqrt.cpp
+		    	float_sqrt.cpp
+			test_main.cpp
+    			top_magnitude.cpp
 	\---code-opt
-			dct.h
-			dct_coeff_table.h
-			fdctref.cpp
-			my_dct.cpp
-			wang_fdct.cpp
-	\---testdata
-			test_wang_fdct.cpp
+			cordic_atan_11bits.h
+		        cordic_defines.h
+		    	cordic_isqrt.cpp
+		    	cordic_sqrt.cpp
+		    	float_sqrt.cpp
+			test_main.cpp
+    			top_magnitude.cpp
 	\---impl
 			top_fdct_csyth.rpt
 	\---script
