@@ -11,18 +11,27 @@ Any Vivado HLS release from 2014.1 to 2016.1
 
 ## 3. DESIGN FILE HIERARCHY
 ```
-    9b_sqrt_cordic.pdf
-    CONTRIBUTING.md
-    cordic_atan_11bits.h
-    cordic_defines.h
-    cordic_isqrt.cpp
-    cordic_sqrt.cpp
-    float_sqrt.cpp
-    LICENSE.md
-    README.md
-    run_sqrt_cordic_hls_script.tcl
-    test_main.cpp
-    top_magnitude.cpp
+	
+	|   README.md
+	\---code
+			dct.h
+			dct_coeff_table.h
+			fdctref.cpp
+			my_dct.cpp
+			wang_fdct.cpp
+	\---code-opt
+			dct.h
+			dct_coeff_table.h
+			fdctref.cpp
+			my_dct.cpp
+			wang_fdct.cpp
+	\---testdata
+			test_wang_fdct.cpp
+	\---impl
+			top_fdct_csyth.rpt
+	\---script
+			script.tcl
+			
 ```
 
 
