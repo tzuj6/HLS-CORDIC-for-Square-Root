@@ -30,7 +30,7 @@ Any Vivado HLS release from 2014.1 to 2016.1
 			test_main.cpp
     			top_magnitude.cpp
 	\---impl
-			top_fdct_csyth.rpt
+			top_process_magnitude_csynth.rpt
 	\---script
 			script.tcl
 			
